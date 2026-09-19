@@ -32,7 +32,7 @@ def ft_load(path: str) -> np.ndarray:
 def main():
     """Test the ft_load function"""
     try:
-        print(ft_load())
+        print(ft_load("../landscape.jpg"))
     except Exception as ex:
         print(f"Error: {ex}")
 

@@ -8,8 +8,8 @@ def main():
         img_array = ft_load("../animal.jpeg")
         print(img_array)
         zoomed_image = img_array[200:600, 400:800, 0:1]
-        print(f"New shape after slicing: {zoomed_image.shape} or \
-              {zoomed_image[:,:,0].shape}")
+        print(f"New shape after slicing: {zoomed_image.shape} \
+        or {zoomed_image[:, :, 0].shape}")
         print(zoomed_image)
         plt.imshow(zoomed_image[:, :, 0], cmap="gray")
         plt.show()
